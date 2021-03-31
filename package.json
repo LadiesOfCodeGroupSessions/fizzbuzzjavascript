@@ -2,7 +2,7 @@
     "name": "jest-tests",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "ES6Class.js",
     "type": "module",
     "scripts": {
         "test": "jest",
