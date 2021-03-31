@@ -1,4 +1,4 @@
-export class ES6Class {
+class ES6Class {
   someMethod() {
     return 'something';
   }
@@ -6,3 +6,5 @@ export class ES6Class {
     return 'whatever';
   }
 }
+
+module.exports = ES6Class

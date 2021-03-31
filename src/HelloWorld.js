@@ -1,2 +1,2 @@
-// Enjoy arrow functions
-export default () => 'Hello World!';
+// // Enjoy arrow functions
+// export default () => 'Hello World!';

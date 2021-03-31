@@ -1,5 +1,6 @@
 // use named imports
-import { ES6Class } from '../src/ES6Class';
+
+const ES6Class = require("../src/ES6Class");
 
 beforeAll(() => {
   ES6Class.prototype.someMethod = jest.fn();
