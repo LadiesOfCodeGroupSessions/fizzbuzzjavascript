@@ -1,2 +1,4 @@
-// // Enjoy arrow functions
-// export default () => 'Hello World!';
+// Enjoy arrow functions
+helloWorld = () => 'Hello World!';
+
+module.exports = helloWorld;
