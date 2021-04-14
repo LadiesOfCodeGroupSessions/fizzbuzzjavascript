@@ -17,6 +17,17 @@ class Generator {
         }
         return output;
     }
+
+    FizzBuzz3() {
+        let output='';
+        for (let i=1; i<=100; i++){
+            if (i % 5 === 0)
+                output += "Buzz" + '\n';
+            else
+                output += i + '\n';
+        }
+        return output;
+    }
 }
 
 module.exports = Generator
