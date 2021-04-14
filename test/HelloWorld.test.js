@@ -219,7 +219,7 @@ const expectedOutputFizz =
 
 test ('Instead of numbers divisible by 3, the method should output "Fizz".', () => {
   const generator = new Generator()
-  expect(generator.FizzBuzz()).toBe(expectedOutputFizz)
+  expect(generator.FizzBuzz2()).toBe(expectedOutputFizz)
 })
 
 
