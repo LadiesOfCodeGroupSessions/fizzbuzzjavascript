@@ -28,6 +28,17 @@ class Generator {
         }
         return output;
     }
+
+    FizzBuzz4() {
+        let output='';
+        for (let i=1; i<=100; i++){
+            if ((i % 3 === 0) && (i % 5 === 0))
+                output += "FizzBuzz" + '\n';
+            else
+                output += i + '\n';
+        }
+        return output;
+    }
 }
 
 module.exports = Generator
